@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DawateIslami - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #222;
+      line-height: 1.6;
+      font-family: Arial, sans-serif;
+      background: #fff;
+    }
+
+   
+    header {
+      background: linear-gradient(90deg, #000000);
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: auto;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    nav h1 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffd700;
+    }
+
+   
+    .hero {
+      background-image: url("https://images.unsplash.com/photo-1598387847535-08158f6f9e5c?auto=format&fit=crop&w=1600&q=80");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #ffc107;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #ffcd39;
+      
+
+    }
+
+   
+
+   
+    .about {
+      background: linear-gradient(90deg, #e3fff0, #d9ecff);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .about h3 {
+      color: #007d2f;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      max-width: 900px;
+      margin: auto;
+      text-align: justify;
+      color: #333;
+    }
+
+    
+    footer {
+      background: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 30px;
+      }
+      nav h1 {
+        font-size: 20px;
+      }
+    }
+    h3{
+      background-color: #0d6efd;
+    }
+    
+
+
+    
+    .middle-nav {
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 20px;
+      border-bottom: 1px solid #ddd;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .nav-btn {
+      border: none;
+      padding: 8px 16px;
+      font-size: 14px;
+      border-radius: 3px;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .black {
+      background: #222;
+    }
+    .red {
+      background: #d33b3b;
+    }
+    
+
+    .logo img {
+      height: 40px;
+      vertical-align: middle;
+    }
+
+  
+    .bottom-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      flex-wrap: wrap;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-size: 15px;
+      margin: 0 8px;
+      position: relative;
+    }
+
+    .nav-links a:hover {
+      color: #d33b3b;
+    }
+
+    .search-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .search-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 2px 6px;
+    }
+
+
+  </style>
+</head>
+<body
+
+    <button class="">Feedback</button>
+   
+ 
+
+
+
+
+  
+
+
+
+
+
+ <div class="middle-nav">
+    <button class="nav-btn black">Al Quran</button>
+    <button class="nav-btn black">Books</button>
+    <button class="nav-btn red">Madani Channel</button>
+    <div class="logo">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Dawateislami.png/800px-Dawateislami.png"
+        alt="Dawat-e-Islami Logo"
+      />
+    </div>
+    <button class="nav-btn red">Magazine</button>
+    <button class="nav-btn black">Courses</button>
+    <button class="nav-btn black">Media</button>
+  </div>
+
+  
+  <div class="bottom-nav">
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Islamic Services</a>
+      <a href="#">Social Services</a>
+      <a href="#">News & Updates</a>
+      <a href="#">Rohani Ilaj</a>
+      <a href="#">Departments</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="search-area">
+      <div class="search-box">
+        <input type="text" placeholder="Search" />
+        <button></button>
+      </div>
+      <button class="action-btn">Donate</button>
+      <button class="action-btn">Feedback</button>
+    </div>
+  </div>
+
+
+
+
+<header>
+    <nav>
+      <h1>DawateIslami</h1>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#programs">Programs</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Welcome to DawateIslami</h2>
+      
+      <p>DawateIslami is a global Islamic movement devoted to spreading peace, education, and love for Islam. It organizes educational programs, online classes, and welfare activities to serve humanity and bring hearts closer to Allah.</p>
+      
+      <a href="#programs" class="btn">Explore More</a>
+    </div>
+  </section>
+  <section class="programs" id="programs">
+    <center><h3>Our Programs</h3></center>
+    <div class="program-grid">
+      <div class="program">
+        <img src="" alt="Madani Channel" />
+        <div class="program-content">
+          <h4>Ameer e Ahle Sunnat, Maulana Ilyas Qadri</h4>
+          <p>Maulana Ilyas Qadri, the founder of Dawateislami. Ameer e ahle Sunnat is recognized for his profound impact on individuals, inspiring them to embrace righteousness and gives spiritual guide. Here you may read more about his spiritual life.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOH_q-pRZkvulCTTKM5fzFppe28eTQuKIBIdr9WRTfNKK5jNDX4TqZb7szcWOs_hDUv7U&usqp=CAU" alt="" width="600px" height="300px">
+        </div>
+      </div>
+      <div class="program">
+        <img src="https://images.unsplash.com/photo-1614735241165-6756f9c486d1?auto=format&fit=crop&w=800&q=80" alt="Education" />
+        <div class="program-content">
+          <center><h3>A Daily Prayer</h3></center>
+          <p>The second pillar of Islam, the daily 5 prayers of Islam, symbolize a believer's submission to Allah عَزَّ وَجَلَّ and serve as a public display of their commitment to Islam. This pillar holds immense significance, ranking after the Shahada. It is through this regular practice that Muslims acknowledge their dependence on Allah and their need for spiritual nourishment, seeking guidance, and seeking forgiveness.</p>
+          <img src="https://i0.wp.com/awwalquran.com/wp-content/uploads/2024/01/learn-namaz-quickly.jpg?fit=800%2C400&ssl=1" alt="">
+        </div>
+      </div>
+      <div class="program">
+        <img src="https://images.unsplash.com/photo-1585498593369-927b6df2862c?auto=format&fit=crop&w=800&q=80" alt="Community Service" />
+        <div class="program-content">
+          <center><h3> First Khalifa of Islam</h3></center>
+          <p>Abu Bakr رَضِىَ الـلّٰـهُ عَـنْهُ was born in the year 573. His parents were Abu Quhafa and Umm Khayr, and they belonged to Banu Taym tribe. Even before Islam, he believed in one God and didn't like people worshiping idols. The first Muslim caliph, Abu Bakr رَضِىَ الـلّٰـهُ عَـنْهُ, who was a rich trader, used his money to set slaves free. which means 'the Truthful/Righteous.'</p>
+          <img src="https://i.ytimg.com/vi/DsBW72S3gdQ/hq720.jpg?rs=AOn4CLDRpOkeND0FnZq0ve2ksbyGxXyOBw&sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD" alt="">
+        </div>
+      </div>
+    </div>
+  </section> 
+<div class="program">
+
+<center><h2>Ameer e Ahlesunnat Dua for Palestine</h2></center>
+
+<p>Ameer e Ahlesunnat Maulana Muhammad Ilyas Attar Qadri دامت برکاتھم العالیہ founder of Dawateislami, prayed sincerely for Palestine. With care and kindness, Maulana Muhammad Ilyas Qadri prayed for peace and comfort. He wanted Allah Almighty to help the Palestinians facing hard times. This shows how much Dawateislami's founder cares about the people of Palestine and their well-being. Here’s what he prayed:
+
+</p>
+<center><video controls=""   src="137632.mp4"> width="100%"</video></center>
+</div>
+  <section class="about" id="about">
+    <h2>About DawateIslami</h2>
+    <p>DawateIslami aims to promote the teachings of the Holy Quran and Sunnah through peace, knowledge, and good character. With centers across the world, the organization encourages people to live a life dedicated to serving others and spreading positivity.</p>
+    
+  </section>
+
+
+  <footer>
+    © 2025 DawateIslami Demo | Made with 💚 by umer
+  </footer>
+</body>
+</html>
